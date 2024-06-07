@@ -4,7 +4,7 @@
   "parameters": {
     "baseName": {
       "type": "string",
-      "maxLength": 10,
+      "maxLength": 12,
       "minLength": 3,
       "metadata": {
         "description": "mlopsdemo10"
