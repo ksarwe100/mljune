@@ -18,7 +18,9 @@
       }
     },
     "workspace": {
-      "type": "string"
+      "type": "string",
+       "defaultValue": "my_mlopsworkspace"
+
     },
     "storageAccount": {
       "type": "string",
