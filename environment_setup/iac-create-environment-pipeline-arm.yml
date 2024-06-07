@@ -2,14 +2,14 @@
 trigger:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - environment_setup/arm-templates/*
 pr:
   branches:
     include:
-      - master
+      - main
   paths:
     include:
       - environment_setup/arm-templates/*
@@ -18,7 +18,7 @@ pool:
   vmImage: "ubuntu-latest"
 
 variables:
-  - group: devopsforai-aml-vg
+  - group: Mlopsgroup01
   - name: WORKSPACE_SKU # https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml#sku
     value: basic
 
